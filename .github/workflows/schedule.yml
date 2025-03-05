@@ -3,6 +3,7 @@ name: Run code.py every 5 minutes
 on:
   schedule:
     - cron: "*/9 * * * *"
+  workflow_dispatch:
 
 jobs:
   run_script:
